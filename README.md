@@ -3,7 +3,7 @@ Este repositorio continene los ficheros originales del artículo del blog Conten
 
 En el artículo se utiliza una aplicación sencilla en python y varios ejemplos de imágenes con diferentes configuraciones e imágenes base para ver las vulnerabilidades que detecta Trivy en cada una de ellas.  
 
-#Instalación
+# Instalación
 Para bajar el copiar el repositorio: 
 
 
@@ -19,7 +19,7 @@ pip3 install Flask waitress
 
 Para crear las imágenes deberéis tener instalado Docker y para la la auditoría de seguridad de las imágenes hay que instalar trivy. 
 
-#Creando las imágenes de Docker
+# Creando las imágenes de Docker
 A continuación se muestran los comandos para crear las diferentes imágenes con las que se va a probar trivy.
 
 Imagen base python:3.5-alpine
