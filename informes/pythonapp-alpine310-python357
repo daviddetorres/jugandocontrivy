@@ -1,0 +1,29 @@
+pythonapp-alpine310-python357 (alpine 3.10.2)
+=============================================
+Total: 6 (UNKNOWN: 0, LOW: 2, MEDIUM: 4, HIGH: 0, CRITICAL: 0)
+
++----------+------------------+----------+-------------------+---------------+--------------------------------+
+| LIBRARY  | VULNERABILITY ID | SEVERITY | INSTALLED VERSION | FIXED VERSION |             TITLE              |
++----------+------------------+----------+-------------------+---------------+--------------------------------+
+| expat    | CVE-2019-15903   | MEDIUM   | 2.2.7-r0          | 2.2.7-r1      | expat: heap-based buffer       |
+|          |                  |          |                   |               | over-read via crafted XML      |
+|          |                  |          |                   |               | input                          |
++----------+------------------+          +-------------------+---------------+--------------------------------+
+| openldap | CVE-2019-13565   |          | 2.4.47-r2         | 2.4.48-r0     | openldap: ACL restrictions     |
+|          |                  |          |                   |               | bypass due to sasl_ssf value   |
+|          |                  |          |                   |               | being set permanently          |
++          +------------------+----------+                   +               +--------------------------------+
+|          | CVE-2019-13057   | LOW      |                   |               | openldap: Information          |
+|          |                  |          |                   |               | disclosure issue in slapd      |
+|          |                  |          |                   |               | component                      |
++----------+------------------+----------+-------------------+---------------+--------------------------------+
+| openssl  | CVE-2019-1549    | MEDIUM   | 1.1.1c-r0         | 1.1.1d-r1     | openssl: information           |
+|          |                  |          |                   |               | disclosure in fork()           |
++          +------------------+          +                   +               +--------------------------------+
+|          | CVE-2019-1563    |          |                   |               | openssl: information           |
+|          |                  |          |                   |               | disclosure in PKCS7_dataDecode |
+|          |                  |          |                   |               | and CMS_decrypt_set1_pkey      |
++          +------------------+----------+                   +               +--------------------------------+
+|          | CVE-2019-1547    | LOW      |                   |               | openssl: side-channel weak     |
+|          |                  |          |                   |               | encryption vulnerability       |
++----------+------------------+----------+-------------------+---------------+--------------------------------+
