@@ -6,8 +6,11 @@ En el artículo se utiliza una aplicación sencilla en python y varios ejemplos 
 En el directorio `/informes` se pueden encontrar los informes generados por trivy de cada una de las imágenes.    
 
 # Instalación
-Para bajar el copiar el repositorio: 
+Para copiar el repositorio a local: 
 
+```
+git clone https://github.com/daviddetorres/jugandocontrivy
+```
 
 Para ejecutar en local la aplicación se requieren las siguientes librerías: 
 * Flask
